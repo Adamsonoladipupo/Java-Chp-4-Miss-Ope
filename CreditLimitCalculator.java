@@ -1,5 +1,10 @@
 /*
 Pseudocode
+- display a welcome message to the user and an highlight on what the app is for
+- ask the user for five inputs and store them in a variable
+- check if the user have exceeded credit limit by: new Balance = initial account Balance + Charges incured by the user - amount of credit applied for.
+- print the new about balance of the user. 
+- print "credit limited exceeded" if the credit limited have been exceeded.
 */
 import java.util.Scanner;
 public class CreditLimitCalculator{
