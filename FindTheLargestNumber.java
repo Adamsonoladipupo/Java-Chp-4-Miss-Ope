@@ -15,22 +15,15 @@ System.out.println("Enter a given set of numbers");
 
 Scanner input = new Scanner(System.in);
 int number = 0;
-int counter = 0;
-int largestNumber = 0;
+int largestNumber =0 ;
 
-while (counter < 10){
-System.out.print("Enter number: ");
-number = input.nextInt();
-counter ++;
-
-// checking for the largest number
-largestNumber = number;
-if (number > largestNumber ){
-largestNumber =  number;
+for (int counter = 0; counter < 10; counter++){
+	System.out.print("Enter a number: ");
+	number = input.nextInt();
+	if ( number > largestNumber){
+	largestNumber = number;
 }
-
 }
-
-System.out.printf("The lastest number is: %d", largestNumber);
+System.out.printf("LCM is %d: ", largestNumber);
 }
 }
